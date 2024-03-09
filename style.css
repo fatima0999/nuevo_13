@@ -1,0 +1,43 @@
+/*el aaprtado sera el estilo principal de el body*/
+body {
+    margin: 0; /* Elimina el margen predeterminado del cuerpo del documento */
+    font-family: arial, sans-serif; /* Establece la fuente predeterminada para el texto del cuerpo del documento */
+    background-color: black; /* Establece el color de fondo del cuerpo del documento como negro */
+    width: 100%; /* Establece el ancho del cuerpo del documento al 100% del ancho de la ventana del navegador */
+    height: 100%; /* Establece la altura del cuerpo del documento al 100% de la altura de la ventana del navegador */
+}
+ 
+/*Este código CSS define estilos para el elemento con la clase*/
+.header {
+    text-align: center; /* Centra el contenido del encabezado */
+    padding: 10px; /* Agrega un espacio de relleno de 10 píxeles alrededor del contenido del encabezado */
+    width: 100%; /* Establece el ancho del encabezado al 100% del ancho del viewport */
+    background-color: #f8f9fa; /* Establece el color de fondo del encabezado */
+    position: fixed; /* Fija la posición del encabezado en la ventana del navegador */
+    top: 0; /* Coloca el encabezado en la parte superior de la ventana */
+    font-size: 3vh; /* Establece el tamaño de la fuente en 3% de la altura del viewport */
+}
+
+/*este es el contenido de imagen*/
+.contenido {
+    margin: 15px; /* Establece un margen de 15 píxeles alrededor del contenido */
+    align-items: center; /* Centra los elementos secundarios horizontalmente */
+    align-content: center; /* Centra el contenido verticalmente */
+}
+
+/*propiedades de la imagen*/
+img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del ancho de su contenedor */
+    max-height: 100%; /* Establece la altura máxima de la imagen al 100% de la altura de su contenedor */
+    margin-top: 140px; /* Establece un margen superior de 140 píxeles */
+    margin-left: auto; /* Centra la imagen horizontalmente estableciendo el margen izquierdo en "auto" */
+    margin-right: auto; /* Centra la imagen horizontalmente estableciendo el margen derecho en "auto" */
+    display: block; /* Hace que la imagen sea un elemento de bloque para que ocupe todo el ancho disponible */
+}
+/* define estilos para el elemento con la clase*/
+.footer {
+    text-align: center; /* Centra el contenido del pie de página horizontalmente */
+    padding: 10%; /* Agrega un espacio de relleno del 10% del ancho del contenedor alrededor del contenido del pie de página */
+    background-color: #f8f9fa; /* Establece el color de fondo del pie de página */
+    bottom: 0; /* Fija la posición del pie de página en la parte inferior del contenedor padre */
+}
